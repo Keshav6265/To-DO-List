@@ -1,0 +1,56 @@
+*{
+    background-color: palevioletred;
+}
+.box1{
+    margin-left: 33%;
+    margin-top: 100px;
+}
+.head{
+    margin: 0%;
+    background-color: purple;
+    height: 50px;
+    width: 500px;
+    border:  solid black;
+    text-align: center;
+    color: #fff;
+}
+#todo{
+    position: relative;
+    text-align: center;
+}
+.box2{
+    background-color: pink;
+    height: fit-content;
+    color: black;
+    font-size: 20px;
+}
+.b2{
+    margin-top: 10px;
+    background-color: pink;
+    height: fit-content;
+    width: 500px;
+    border: solid black;
+    font-family:'Times New Roman',sans-serif;
+    font-style: italic;
+}
+ul{
+    list-style-type: none;
+    text-align: justify;
+}
+.b3{
+    margin-top: 5px;
+    margin-left: 100px;
+}
+.inp{
+    background-color: plum;
+    border-radius: 5px;
+    border: solid black;
+    height: 18px;
+}
+.add{
+    background-color: plum;
+    border-radius: 10px;
+    border: solid black;
+    font-weight: bold;
+    font-style: italic;
+}

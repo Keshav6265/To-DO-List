@@ -1,0 +1,23 @@
+<%-include("partials/header.ejs") %>
+<body>
+    <main class="box1">
+    <h1 class="head" id="todo" >To Do List</h1><br>
+<h1 class="head"><%=toDate%></h1>
+
+     <div class="b2">
+    <ul class="box2">
+        <% for(var i=0;i<newT.length;i++){ %>
+            <li class="box2"><input type="checkbox"><%= newT[i] %></li>
+            <% } %>
+        </ul>
+    </div>
+
+    <div class="b3">
+    <form action="/submit" method="POST">
+        <input  class="inp" type="text" name="newTask" placeholder="Add New Task" autocomplete="off">
+        <input class="add" type="submit" value="Add">
+      </form>
+    </div>
+    </main>
+</body>
+</html>
